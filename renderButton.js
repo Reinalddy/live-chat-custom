@@ -1,8 +1,8 @@
 function superChatButton(id, color) {
   // superchat render button
   //T stands for Tier, e.g. T1 = Tier1
-  const superchat = `<button class="button btnOnSC" id=${id} style="max-width: 26px; max-height: auto; background-color:${color};">
-                <img style="width: 100%; height: 100%" src="src/sc-icon.svg">
+  const superchat = `<button class="button btnOnSC" id=${id} style="max-width: 100px; max-height: auto; background-color:${color};">
+               supa chat
               </button>`;
   return superchat;
 }
@@ -38,8 +38,8 @@ function renderButtons() {
          
             <div class="container">
          
-              <button class="btn" style="max-width: 40px; max-height: auto" id="render-random-suppa">
-                <img style="width: 100%; height: 100%" src="src/sc-icon.svg" />
+              <button class="btn" style="max-width: 100px; max-height: auto" id="render-random-suppa">
+                supachat
               </button>
    
               <button id="button2" class="opt" onclick="toggleButtons('button2')">></button>
@@ -77,7 +77,7 @@ function renderButtons() {
             </div>
             <div class="container">
               <button class="btn" id="render-random-memberevent">
-               <img style="width: 18px; height: 18px" src="src/membership-icon.svg" />
+                Membership
               </button>
               <button id="button3" class="opt" onclick="toggleButtons('button3')">></button>
               <div id="toggleButtons3" class="toggle-buttons">

@@ -1,6 +1,6 @@
 function ImageAssets() {
   const profilePicture =
-    "https://res.cloudinary.com/dxcmt3zoc/image/upload/v1720782939/yt-profile-pict.png";
+    "https://i.postimg.cc/Y2WB77fw/329cb69b7f836a1aa960afddbd12ffa2.jpg";
   const MemberBadge =
     "https://res.cloudinary.com/dxcmt3zoc/image/upload/v1680602632/Frame_2_hzxp2b.png";
   //   Button Icons
